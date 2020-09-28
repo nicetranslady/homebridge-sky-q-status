@@ -1,0 +1,12 @@
+{
+  "name": "homebridge-sky-q-status",
+  "accessory": "MyAwesomeSwitch",
+  "getUrl": "http://127.0.01/api/status",
+  "postUrl": "http://127.0.0.1/api/order",
+  "keywords": [
+    "homebridge-plugin",
+    "sky-q",
+    "sky",
+    "homebridge"
+  ]
+}
