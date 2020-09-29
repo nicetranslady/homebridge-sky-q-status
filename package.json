@@ -1,11 +1,11 @@
 {
   "displayName": "Homebridge Sky Q Status",
-  "name": "homebridge-sky-q-status",
+  "name": "@nicetranslady/homebridge-sky-q-status",
   "version": "0.0.1",
   "description": "Plugin to help assess what state your Sky-Q device is in.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nicetranslady/homebridge-sky-q-status.git"
+    "url": "git+https://github.com/nicetranslady/homebridge-sky-q-status.git"
   },
   "bugs": {
     "url": "https://github.com/nicetranslady/homebridge-sky-q-status/issues"
@@ -21,5 +21,11 @@
     "sky",
     "homebridge"
   ],
-  "dependencies": {}
+  "dependencies": {},
+  "homepage": "https://github.com/nicetranslady/homebridge-sky-q-status#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
