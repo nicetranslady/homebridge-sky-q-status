@@ -1,5 +1,4 @@
 {
-  "private": "true",
   "displayName": "Homebridge Sky Q Status",
   "name": "homebridge-sky-q-status",
   "version": "0.0.1",
