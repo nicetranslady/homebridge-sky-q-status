@@ -3,7 +3,7 @@ const Service, Characteristic;
 module.exports = function (homebridge) {
   Service = homebridge.hap.Service;
   Characteristic = homebridge.hap.Characteristic;
-  homebridge.registerAccessory("homebridge-sky-q-status", "MyAwesomeSwitch", mySwitch);
+  homebridge.registerAccessory("switch-plugin", "MyAwesomeSwitch", mySwitch);
 };
 
 mySwitch.prototype = {

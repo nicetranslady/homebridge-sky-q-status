@@ -1,12 +1,26 @@
 {
+  "private": "true",
+  "displayName": "Homebridge Sky Q Status",
   "name": "homebridge-sky-q-status",
-  "accessory": "MyAwesomeSwitch",
-  "getUrl": "http://127.0.01/api/status",
-  "postUrl": "http://127.0.0.1/api/order",
+  "version": "0.0.1",
+  "description": "Plugin to help assess what state your Sky-Q device is in.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicetranslady/homebridge-sky-q-status.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nicetranslady/homebridge-sky-q-status/issues"
+  },
+  "engines": {
+    "node": ">=10.17.0",
+    "homebridge": ">=1.0.0"
+  },
+  "main": "index.js",
   "keywords": [
     "homebridge-plugin",
     "sky-q",
     "sky",
     "homebridge"
-  ]
+  ],
+  "dependencies": {}
 }
